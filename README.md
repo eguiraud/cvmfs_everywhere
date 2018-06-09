@@ -1,6 +1,9 @@
 ## CVMFS everywhere
-Recipe for an ubuntu-based docker container with a working cvmfs client.
+Recipe for an ubuntu-based docker container with a working cvmfs client.<br>
 Must be run in privileged mode (`docker run --privileged`).
+
+Pre-built images are available on DockerHub at [bluehood/cvmfs_everywhere](https://hub.docker.com/r/bluehood/cvmfs_everywhere).<br>
+Try them out with `docker run -it --rm bluehood/cvmfs_everywhere[:cern]`.
 
 ### Example usage
 ```
