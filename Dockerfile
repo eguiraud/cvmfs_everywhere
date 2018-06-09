@@ -8,6 +8,6 @@ RUN dpkg -i cvmfs-release-latest_all.deb
 RUN apt-get update
 RUN apt-get install -y cvmfs cvmfs-config-default
 RUN echo "CVMFS_REPOSITORIES=sft.cern.ch" > /etc/cvmfs/default.local
-RUN echo "CVMFS_HTTP_PROXY=http://ca-proxy.cern.ch:3128" >> /etc/cvmfs/default.local
+RUN echo "CVMFS_HTTP_PROXY=DIRECT" >> /etc/cvmfs/default.local
 
 CMD bash /setup.sh && bash
