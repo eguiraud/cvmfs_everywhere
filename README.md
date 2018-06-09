@@ -13,9 +13,7 @@ root@laptop# docker build .
 root@laptop# docker run --privileged -it --rm 20b4e96d10e8
    * Starting automount...                                                 [ OK ] 
    Probing /cvmfs/sft.cern.ch... OK
-root@container# ls /cvmfs/sft.cern.ch/
-   .cvmfsdirtab   .cvmfsdirtab~  lcg/           
-   root@acf3358da5b0:/# ls /cvmfs/sft.cern.ch/lcg/
+root@acf3358da5b0:/# ls /cvmfs/sft.cern.ch/lcg/
    app/              dev/              external/         lastUpdate        nightlies/        releases/         
    contrib/          etc/              hepsoft/          mapfile.txt       pkgs_view_ml_1.0  views/  
 ```
